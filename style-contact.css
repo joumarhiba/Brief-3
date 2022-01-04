@@ -1,0 +1,188 @@
+/**********contact mobile first *****/
+body{
+    font-family:'Segoe UI', Verdana, sans-serif;
+}
+.header{
+    margin-top: 10%;
+    margin-left: 30%;
+    font-size: 78%;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.header a{
+    text-decoration: none;
+    color:rgb(75, 151, 187);
+    /* font-size: 98%; */
+    font-weight: bold;
+}
+.lg1{
+    position: absolute;
+    width: 10%;
+    left: 6%;top: 6%;
+}
+fieldset{
+    font-size: 72%;
+    font-weight: bold;
+    margin: auto;
+    width: 75%;
+    height: 670px;
+    background: linear-gradient(rgb(217, 226, 247),rgb(51, 110, 138));
+    margin-left: 10%;
+    margin-top: 10%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1px;    
+    border-width:1px ;
+    border-color: rgb(51, 110, 138);
+}
+.ct{
+    font-size: 40px;
+}
+input,a{
+    font-size: 200%;
+    width: 50%;
+}
+
+textarea{
+    font-size: 230%;
+    width: 50%;
+}
+label{
+    width: 50%;
+    font-size: 190%;
+    font-weight: normal;
+} 
+
+
+.bg-f {
+    position: absolute;
+    width: 100%;
+    height: 6%;
+    background: linear-gradient(rgb(217, 226, 247),rgb(51, 110, 138));
+    transform: translate(-1%,556%);
+}
+.sm{
+    height:8%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 30%;
+    transform: translate(230%,840%);
+}
+.cp{
+     margin-right: 0%;
+    font-weight: normal;
+    font-size: 20px;
+    transform: translate(0%,820%);
+    width: 50%;
+    
+}
+.fb{
+    width: 56%;
+    height: 82%;
+}   
+.send{
+    font-size: 90%;
+    width: 50%;
+    color: rgb(51, 110, 138);
+    cursor: pointer;
+    font-size: medium;
+}
+
+@media screen and (min-width: 1000px){
+    
+    .header{
+    font-size: 88%;
+        margin: 4% 1% 2% 45%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        justify-items: center;
+        width: 57%;
+    }
+    
+    .header a{
+        text-decoration: none;
+        color:rgb(75, 151, 187);
+        font-size: 110%;
+        font-weight: bold;
+    }
+    .bt:hover{
+        color: rgb(23, 9, 153);
+    }
+    .lg1{
+        position: absolute;
+        top: 6%;left: 5%;
+        width: 7%;
+    }  
+    .ct{
+        font-size: 19px;
+    }
+    fieldset{
+        margin: auto;
+        width:80%;
+        height: 90%;
+        background: linear-gradient(rgb(217, 226, 247),rgb(51, 110, 138));
+        margin-left: 7%;
+        margin-top: 4%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1px;    
+        border-width:1px ;
+        border-color: rgb(51, 110, 138);
+    }
+    input,textarea{
+        border-radius: 3px;
+        padding: 1%;
+        border-width:1px ;
+        width: 40%;
+        font-size: 80%;
+    }
+    label{
+        width: 42%;
+        font-size: 100%;
+        font-weight: normal;
+    } 
+    .send{ 
+        width: 25%;
+        margin-left: 40%;
+        color: rgb(51, 110, 138);
+        cursor: pointer;
+        font-size: medium;
+    }
+    .bg-f{
+        position:absolute; 
+        width: 100%;height:  10%;left: 0%;
+        background: linear-gradient(rgb(217, 226, 247),rgb(51, 110, 138));
+        transform: translate(0%,230%);
+    }
+    .sm{
+        margin-left: 6%;
+        display: flex;
+        flex-flow: row;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 30%;
+        transform: translate(230%,330%);
+    }
+    .cp{
+         margin-right: 0%;
+        font-weight: bold;
+        font-size: 80%;
+        transform: translate(0%,610%);  
+    }
+    .fb{
+        width: 27%;
+        height: 70%;
+    
+    } 
+}

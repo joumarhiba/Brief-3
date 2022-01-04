@@ -1,0 +1,201 @@
+/******galerie******/
+.header{
+    font-size: 88%;
+        margin: 4% 1% 2% 45%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        justify-items: center;
+        width: 50%;
+    }
+    
+    .header a{
+        text-decoration: none;
+        color:rgb(75, 151, 187);
+        font-size: 110%;
+        font-weight: bold;
+    }
+    .bt:hover{
+        color: rgb(23, 9, 153);
+    }
+.lg1{
+    position: absolute;
+    width: 10%;
+    left: 6%;top: 6%;
+}
+
+.caption{
+    margin-top: 1%;
+    margin-left: 7%;
+    font-weight:normal;
+    font-size: small;
+}
+.item{
+    left: 10%;
+    width: 32%;
+    margin: 0; 
+    overflow: hidden;
+    margin-bottom: -20px;
+    
+}
+.item:hover img{
+    margin-bottom: 0%;
+    opacity: 0.4;
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(51, 110, 138);
+    font-size: larger;
+    text-decoration: underline;
+}
+.titre-page{
+    margin-top: 8%;margin-bottom: 0%;
+    margin-left: 7%;
+    font-weight: bold;
+    color: rgb(51, 110, 138);
+    font-size: larger;
+}
+.moto,.citadine{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;
+}
+.item img{
+    width: 100%;
+     margin:0% 2%;     
+} 
+.overlay{
+    top:1%;left: 50%; 
+    transform: translate(28%,-155%);
+    opacity: 0; 
+}
+.item:hover .overlay{
+    opacity: 1;
+    margin-bottom: 1%;
+}
+
+.price{
+ 
+    font-weight: bolder;
+    font-size: 165%;
+    color: rgb(51, 110, 138);
+}
+p{
+    width: 90%;
+    font-weight:normal;
+    font-size: 140%;
+    color: rgb(0, 11, 15);
+}
+.bg-f{
+    position:absolute; 
+    width: 100%;height:  10%;left: 0%;
+    background: linear-gradient(rgb(217, 226, 247),rgb(51, 110, 138));
+    transform: translate(0%,230%);
+}
+.sm{
+    margin-left: 6%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+    transform: translate(260%,460%);
+}
+.cp{
+     margin-right: 0%;
+    font-weight: bold;
+    font-size: 80%;
+    transform: translate(0%,640%);  
+}
+.fb{
+    width: 60%;
+    height: 90%;
+} 
+
+@media screen and (max-width:768px) {
+
+    .header{
+        top: 4%;margin-left: 30%;
+        font-size: 48%;
+        margin-right: 0;
+    }
+   .lg1{
+       width: 10%;
+       top: 3%;left: 10%;
+   }
+   .titre-page{
+    font-size: small;
+    font-weight: normal;
+}
+.caption{
+    font-size:xx-small;
+}
+.ctg{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item {
+    width: 82%;
+    margin-top: 2%;    margin-bottom: -97px;
+} 
+
+h3 {
+    font-size: 13px;
+}
+.moto,.citadine{
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+    /* max-width: 1400px; */
+}
+.overlay {
+    top: 1%;
+    left: 50%;
+    transform: translate(28%,-140%);
+    opacity: 0;
+}
+.price{
+    font-weight: bolder;
+    font-size: 15px;
+    color: rgb(51, 110, 138);
+}
+p{
+    width: 90%;
+    font-weight:normal;
+    font-size: 12px;
+    color: rgb(0, 11, 15);
+}
+.bg-f{
+    height: 7%;
+}
+.cp{
+    margin-right: 0%;
+    font-weight: normal;
+    font-size:8px;
+    transform: translate(0%,268%);
+    width: 50%;
+}
+.sm{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 30%;
+    transform: translate(200%,370%);
+}
+}
