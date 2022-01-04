@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation des Véhicules</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+        
+    <div class="header">
+        <a class="bt b1" href="newindex.html" title=""> Accueil</a>
+        <a class="bt b2" href="newgalerie.html" title="">Galerie</a>
+        <a class="bt b3" href="reservation.html" title="">Reservation</a>
+        <a class="bt b4" href="Contact.html" title="">Contact</a>
+    </div>
+    <div>
+        <img class="lg1" src="./imgs/logob3.png" alt="RentMENow">
+    <h3 class="titre-rsv">Reservation Des Véhicules</h3>
+    <img class="img-rsv" src="./imgs/newcarrsvt.jpg" alt="choose a car and rent it now">
+    </div>
+    <div class="frml">
+       
+        <form action="">
+        <table id="tbl">
+            <tr>
+                <br><br>
+                <td><label for="type-v">choisir le véhicule à louer</label></td>
+                <td> <select name="type-v" id="type-v">
+                    <option>Choisir votre type de vehicule</option>
+                    <option >moto</option>
+                    <option >citadine</option>
+                    <option>compact</option>
+                    <option>berline</option>
+                    <option>utilitaire</option>
+                    <option>engin</option>
+                    <option>camion</option>
+                </select></td>
+            </tr>
+            
+            <tr>
+                <td><label for="auto">choisir la boite à vitesse</label></td>
+                <td><select name="auto" id="auto">
+                    <option>choisir le type de boite</option>
+                    <option>Automatique</option>
+                    <option>Mannuelle</option>
+                </select></td>
+            </tr>
+            
+            <tr>
+                <br><br>
+                <td><label for="motorisation">Motorisation</label></td>
+                <td> <select name="motorisation" id="motorisation">
+                    <option> choisir le type de motorisation</option>
+                </select></td>
+            </tr>
+            <tr>
+                <br><br>
+                <td><label for="duree">Nombres des jours</label></td>
+                <td><input type="number" id="duree" name="duree" placeholder="Entrer le nombre du jour "></td>
+            </tr>
+            <tr>
+                <td><a href="reservation.html"><input type="submit" name="valide" id="valide" value="Valider"></a></td>
+            </tr>
+        </table>
+        </form>
+    </div>
+    <div class="bg-f"></div>
+    <div class="flex-f">
+    <div class="sm">
+        <a href="https://www.facebook.com/" title=""><img class="fb" src="./imgs/icons8-facebook-48.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/" title=""><img class="fb" src="./imgs/icons8-instagram-48.png" alt="instagram"></a>
+        <a href="https://www.youtube.com/" title=""><img class="fb" src="./imgs/icons8-lecture-de-youtube-48.png" alt="facebook"></a>
+    </div>
+    <p class="cp">© Copyright 2000-2021 Location Des véhicules Au Maroc </p>
+    </div>
+    
+    
+
+
+<script src="main.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
